@@ -1,3 +1,52 @@
-button{
-    text-align: right;
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header{
+    background-image: url('../Assets/bg.png');
+    padding-bottom: 150px;
+    padding-top: 5px; 
+}
+nav{
+    display: flex;
+    color: midnightblue;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.nav-title{
+    font-weight: bold;
+    color: #4E47FF;
+    font-size: 34px;
+    
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+.banner{
+    text-align: center;
+    color: #252432;
+}
+p{
+    font-weight: bold;
+    font-size: 65px;
+    font-style: raleway;
+    padding-top: 150px;
+}
+
