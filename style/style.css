@@ -88,7 +88,7 @@ p{
 .headd{
     font-weight: bold;
     font-size: 38px;
-    padding-top: 50px;
+    padding-top: 10%;
     
 }
 .third{
@@ -130,7 +130,7 @@ p{
 .headline{ 
      font-size: 42px; 
      text-align: left; 
-    padding-left: 70px;
+    padding-left: 5%;
     margin-top: 5px;
 } 
 .line{
@@ -146,8 +146,9 @@ p{
     /* width: 40px; */
     border-radius: 50x;
     list-style: none;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     padding-right: 10px;
+    text-align: left;
 }
 .picline{
     display: flex;
@@ -164,7 +165,7 @@ p{
 .back{
     background-color: aliceblue;
     border-radius: 26px;
-    padding: 24px 24px;
+    padding: 24px;
     column-gap: 5px;
     text-align: left;
 }
@@ -179,13 +180,15 @@ p{
     margin-right: 150px;
     margin-bottom: 150px;
     margin-top: 150px;
-    margin-block: 300px;
+    margin-block: 400px;
+    padding: 0px 0px 0px 0px;
 }
 .btext{
     text-align: center;
     justify-content: center;
     font-size: 50px;
     font-weight: bold;   
+    padding: 10%;
 }
 .bbtext{
     color: rgb(169, 168, 168);
@@ -193,7 +196,7 @@ p{
 .img{
     max-width: 840px;
     max-height: 364.77px;
-    border-radius: 48px;
+    border-radius: 14px;
 }
 .left{
     text-align: left;
