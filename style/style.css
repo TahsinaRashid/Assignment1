@@ -3,12 +3,22 @@
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  
 }
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+}
+.fonts{
+    font-size:small ;
+    font-weight: bold;
+    color: rgb(177, 175, 175);
+}
+.fontss{
+    font-weight: bold;
+    color: gray;
 }
 .header{
     background-image: url('../Assets/bg.png');
@@ -87,7 +97,10 @@ p{
     background-color: #d8d6f9;
     border-radius: 24px;
     max-width: 1140px;
-    height: 328px;
+    max-height: 328px;
+    margin-left: 150px;
+    
+    
 }
 .column{
     display: flex;
@@ -108,4 +121,109 @@ p{
     color: gray;
     list-style: none;
 }
-
+.reviews{
+    text-align: center;
+    max-width: 1140px;
+    max-height: 328px;
+    padding-left: 100px;
+}
+.headline{ 
+     font-size: 42px; 
+     text-align: left; 
+    padding-left: 70px;
+    margin-top: 5px;
+} 
+.line{
+    list-style: none;
+    align-items: start;
+}
+.inline{
+    text-align: left;
+    font-weight: 400;
+}
+.avater{
+    /* height: 40px; */
+    /* width: 40px; */
+    border-radius: 50x;
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.picline{
+    display: flex;
+    text-align: left;
+    max-width: 192px;
+    max-height: 46px;
+}
+.mega{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.back{
+    background-color: aliceblue;
+    border-radius: 26px;
+    padding: 24px 24px;
+    column-gap: 5px;
+    text-align: left;
+}
+.bonus{
+    background-color:#f0f8ff ;
+    text-align: center;
+    justify-items: center;
+    border-radius: 24px;
+    max-width: 1140px;
+    /* max-height: 328px; */
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    margin-block: 300px;
+}
+.btext{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;   
+}
+.bbtext{
+    color: rgb(169, 168, 168);
+}
+.img{
+    max-width: 840px;
+    max-height: 364.77px;
+    border-radius: 48px;
+}
+.left{
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.bg{
+    background-color: aliceblue;
+}
+.padding{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+ }
+ .box{
+    width: 400px;
+    border: 1px solid #d1d1d3;
+    border-radius: 10px;
+    padding-left: 20px;
+ }
+ .footer{
+    padding-top: 104px;
+    padding-bottom: 104px;
+    padding-right: 350px;
+    padding-left: 350px;
+    text-align: center;
+ }
+.link {
+    text-decoration: none;
+    color: #9a9a9c;
+    padding-right: 30px;
+ }
