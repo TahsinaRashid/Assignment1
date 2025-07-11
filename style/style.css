@@ -10,7 +10,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 .header{
     background-image: url('../Assets/bg.png');
     padding-bottom: 150px;
@@ -30,7 +29,7 @@ nav{
     font-size: 34px;
     
 }
-.btn-primary{
+.btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
     color: white;
@@ -38,6 +37,10 @@ nav{
     border-radius: 5px;
     border: none;
     font-size: 16px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: goldenrod;
 }
 .banner{
     text-align: center;
@@ -48,5 +51,61 @@ p{
     font-size: 65px;
     font-style: raleway;
     padding-top: 150px;
+}
+.action{
+    max-width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.actionflex{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    height: 328px;
+    padding: 150px 150px 150px 150px;
+}
+.ahead{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.abody{
+    font-weight: 600;
+    font-size: 24px;
+    color: grey ;
+
+}
+.headd{
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 50px;
+    
+}
+.third{
+    text-align: center;
+    justify-items: center;
+    background-color: #d8d6f9;
+    border-radius: 24px;
+    max-width: 1140px;
+    height: 328px;
+}
+.column{
+    display: flex;
+    list-style: none;
+    font-size: 80px;
+    font-weight: bolder;
+    color:#4E47FF ;
+    gap: 158px;
+    margin-top: 40px;
+    
+}
+.lable{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-weight: 40px;
+    color: gray;
+    list-style: none;
 }
 
